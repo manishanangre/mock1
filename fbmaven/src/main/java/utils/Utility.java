@@ -31,7 +31,7 @@ public class Utility {
 		Workbook workbook =	WorkbookFactory.create(file);
 	    sheet = workbook.getSheetAt(sheetNo);
 		row = sheet.getRow(rowno);
-		cell = row.getCell(cellno);
+	 	cell = row.getCell(cellno);
 		
 		try { 
 			

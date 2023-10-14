@@ -18,7 +18,6 @@ public class LogOutPage {
 		driver = this.driver;
 	}
 	
-	
 	public void logoutPage() {
 		logoutIcon.click();
 	}

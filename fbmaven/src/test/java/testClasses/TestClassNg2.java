@@ -46,7 +46,7 @@ public class TestClassNg2 extends Browsers {
 		if(browserName.contains("Edge"))
 		{
 			driver=launchEdge();
-		}
+ 		}
 	}
 	
 	

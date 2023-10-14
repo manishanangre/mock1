@@ -23,7 +23,7 @@ public class LoginOrSignUpPage {
 	@FindBy (xpath ="//a[text()='Create new account']" )
 	private WebElement createNewAccountButton;
 
-
+ 
 
 //constructor public
 

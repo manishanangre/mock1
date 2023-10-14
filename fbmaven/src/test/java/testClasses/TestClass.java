@@ -36,5 +36,5 @@ public class TestClass {
 		forgotPasswordPage.sendEmail();
 		forgotPasswordPage.clickSearchButton();
 	}
-
+ 
 }

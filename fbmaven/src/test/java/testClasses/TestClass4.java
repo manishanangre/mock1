@@ -39,3 +39,4 @@ public class TestClass4 {
 		logOutPage.logoutPage();
 		logOutPage.clickLogOutButton();
 }}
+ 

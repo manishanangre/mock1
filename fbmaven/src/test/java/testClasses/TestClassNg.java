@@ -40,7 +40,7 @@ public class TestClassNg {
 		String username = Utility.getDataFromExcelSheet(0,0,0);
 			loginOrSignUpPage.sendUserName(username);
 			
-		String password = Utility.getDataFromExcelSheet(0,0,1);
+	 	String password = Utility.getDataFromExcelSheet(0,0,1);
 			loginOrSignUpPage.sendPassWord(password);
 			
 			loginOrSignUpPage.clickLoginButton();

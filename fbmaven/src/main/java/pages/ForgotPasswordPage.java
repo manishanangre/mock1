@@ -19,8 +19,6 @@ public class ForgotPasswordPage {
 	@FindBy (xpath =("//button[@id='did_submit']"))
 	private WebElement searchButton;
 	
-	
-	
 	public ForgotPasswordPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);

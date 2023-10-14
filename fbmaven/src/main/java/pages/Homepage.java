@@ -21,7 +21,7 @@ private WebElement createButton;
 
 @FindBy (xpath = ("//span[text()='Post']"))
 private WebElement createPost;
-
+ 
 @FindBy (xpath = ("//div[@role='dialog']//div[@role='textbox']"))
 private WebElement writePost;
 

@@ -29,7 +29,7 @@ public class SignUpForm {
 	@FindBy (xpath = ("//select[@aria-label='Year']"))
 	private WebElement yearDropDown;
 	
-	@FindBy (xpath = ("//label[text()='Female']"))
+	@FindBy (xpath = ("//label[text()='Female']")) 
 	private WebElement genderFemale;
 	
 	@FindBy (xpath = ("//label[text()='Male']"))

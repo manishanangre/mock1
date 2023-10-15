@@ -33,7 +33,7 @@ public class Utility {
 		row = sheet.getRow(rowno);
 	 	cell = row.getCell(cellno);
 		
-		try { 
+		try {  
 			
 			data = cell.getStringCellValue();
 			System.out.println(data);

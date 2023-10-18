@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testclasses.Webdrivermanagertestng">
+        <methods>
+          <include name="openHomePage"/>
+          <include name="closePOMObject"/>
+          <include name="verifyFahrenheitBookCartFunctionality"/>
+          <include name="takeScreenShot"/>
+          <include name="createPOMObject"/>
+          <include name="verifyEngagmentRingCartFunctionality"/>
+          <include name="AfterTest"/>
+          <include name="VerifyAddtocartFunctionalityOnComputer"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testclasses.Webdrivermanagertestng -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
